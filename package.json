@@ -10,7 +10,16 @@
     "type": "git",
     "url": "git://github.com/morishitter/postcss-font-smoothing/git"
   },
-  "keywords": ["postcss","postcss-plugin","css","fallback"],
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "css",
+    "fallback"
+  ],
   "author": "Masaaki Morishita",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "postcss": "^5.1.2",
+    "tape": "^4.6.0"
+  }
 }

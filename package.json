@@ -1,0 +1,16 @@
+{
+  "name": "postcss-font-smoothing",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to fallback font-smoothing property",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/postcss-font-smoothing/git"
+  },
+  "keywords": ["postcss","postcss-plugin","css","fallback"],
+  "author": "Masaaki Morishita",
+  "license": "MIT"
+}

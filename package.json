@@ -1,6 +1,6 @@
 {
   "name": "postcss-font-smoothing",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "PostCSS plugin to fallback font-smoothing property",
   "main": "index.js",
   "scripts": {

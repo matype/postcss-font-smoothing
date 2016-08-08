@@ -8,7 +8,41 @@ PostCSS plugin to fallback font-smoothing property
 $ npm install postcss-font-smoothing
 ```
 
+## Example
+
+input:
+
+```css
+.font {
+  font-smoothing: antialiased;
+}
+```
+
+output:
+```css
+.font {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+```
+
 ## Usage
+
+```js
+// dependencies
+var fs = require("fs")
+var postcss = require("postcss")
+var fontSmoothing = require("postcss-font-smoothing")
+
+// css to be processed
+var css = fs.readFileSync("input.css", "utf8")
+
+// process css
+var output = postcss()
+  .use(fontSmoothing())
+  .process(css)
+  .css
+```
 
 ## License
 
